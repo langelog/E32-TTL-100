@@ -146,26 +146,16 @@ struct MVerstruct {
 };
 #pragma pack(pop)
 
-
-//#define Device_A
-
 #define TIME_OUT_CNT	100
 #define MAX_TX_SIZE		58
 
-#define DEVICE_A_ADDR_H 0x05
-#define DEVICE_A_ADDR_L 0x01
+#define SAMPLE_DEVICE_ADDR_H 0x05
+#define SAMPLE_DEVICE_ADDR_L 0x01
 #define DEVICE_B_ADDR_H 0x05
 #define DEVICE_B_ADDR_L 0x02
 
 #define CFG_HEAD_NON_VOLATILE 0xC0
 #define CFG_HEAD_VOLATILE     0xC2
-
-#define CFG_SPED_AIR_0_3kbps 0x0
-#define CFG_SPED_AIR_1_2kbps 0x1
-#define CFG_SPED_AIR_2_4kbps 0x2
-#define CFG_SPED_AIR_4_8kbps 0x3
-#define CFG_SPED_AIR_9_6kbps 0x4
-#define CFG_SPED_AIR_19_2kbps 0x5 // 0x6 and 0x7
 
 
 #endif //LORAMODULE_E32_TTL_100_H
